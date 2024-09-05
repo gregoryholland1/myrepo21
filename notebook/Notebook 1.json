@@ -1,0 +1,50 @@
+{
+	"name": "Notebook 1",
+	"properties": {
+		"nbformat": 4,
+		"nbformat_minor": 2,
+		"sessionProperties": {
+			"driverMemory": "28g",
+			"driverCores": 4,
+			"executorMemory": "28g",
+			"executorCores": 4,
+			"numExecutors": 2,
+			"runAsWorkspaceSystemIdentity": false,
+			"conf": {
+				"spark.dynamicAllocation.enabled": "false",
+				"spark.dynamicAllocation.minExecutors": "2",
+				"spark.dynamicAllocation.maxExecutors": "2",
+				"spark.autotune.trackingId": "6271e96f-b847-46c1-9a04-defdadab5a7c"
+			}
+		},
+		"metadata": {
+			"saveOutput": true,
+			"synapse_widget": {
+				"version": "0.1"
+			},
+			"enableDebugMode": false,
+			"language_info": {
+				"name": "python"
+			},
+			"sessionKeepAliveTimeout": 30
+		},
+		"cells": [
+			{
+				"cell_type": "code",
+				"source": [
+					"print(\"Hello\")\r\n",
+					"\r\n",
+					"\r\n",
+					"# Importing Pandas to create DataFrame\r\n",
+					"import pandas as pd\r\n",
+					"\r\n",
+					"# Creating Empty DataFrame and Storing it in variable df\r\n",
+					"df = pd.DataFrame()\r\n",
+					"\r\n",
+					"# Printing Empty DataFrame\r\n",
+					"print(df)"
+				]
+			}
+		]
+	}
+}
